@@ -1,0 +1,46 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    font-size: var(--font-size-title);
+    max-width: 125px;
+}
+
+.second {
+    font-size: var(--font-size-big);
+    max-width: 250px;
+    text-align: justify;
+    align-self: center;
+}
+
+.third {
+    margin-right: -45px;
+    align-self: center;
+    /* Legacy vendor prefixes that you probably don't need... */
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+}
+
+.third .-first {
+    color: gray;
+}
+
+.banner {
+    max-height: 390px;
+}
+
+.firstInfo {
+    padding-bottom: 100px;
+}

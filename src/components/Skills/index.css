@@ -1,0 +1,16 @@
+.skills {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 0;
+}
+
+.skills span {
+    font-size: var(--font-size-big);
+    display: inline-block;
+    margin: 50px 0;
+}
+
+.skills .cards {
+    display: flex;
+    justify-content: space-between;
+}

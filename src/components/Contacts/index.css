@@ -1,0 +1,26 @@
+.contacts {
+    padding: 150px 0 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contacts h1 {
+    margin-bottom: 50px;
+}
+
+.contacts h2 {
+    margin: 50px 0;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+.seeya {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--font-color-secondary);
+    font-size: var(--font-size-small);
+}

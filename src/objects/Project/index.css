@@ -1,0 +1,17 @@
+.project-container {
+    width: 100%;
+    font-weight: bold;
+    font-size: var(--font-size-big);
+    text-align: center;
+    color: var(--font-color-primary);
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+.project-container.-last {
+    margin-bottom: 50px;
+}
+
+.project-container img {
+    margin-bottom: 50px;
+}

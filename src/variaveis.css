@@ -1,0 +1,16 @@
+:root {
+
+    --background-about-me: #f6f6f6;
+
+    --font-color-default: black;
+    --font-color-secondary: #828282;
+
+    --font-size-small: 12px;
+    --font-size-medium: 14px;
+    --font-size-big: 18px;
+    --font-size-large: 24px;
+    --font-size-title: 48px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
